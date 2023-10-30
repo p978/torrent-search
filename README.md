@@ -1,5 +1,5 @@
-#Torrent-Search
+# Torrent-Search
 This is a command line program to find torrents in 1337x.to.
 
-#Options
+# Options
 `--search or -s`

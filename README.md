@@ -7,4 +7,5 @@ This is a command line program to find torrents in 1337x.to.
 | ------------- | -------------          |
 | `--search`    | Searches Torrent       |
 | `-s`          | Searches Torrent       |
-** Note **: After `-s` or `--search` include the query in quotation marks "s"
+
+** Note **: After `-s` or `--search` include the query in quotation marks

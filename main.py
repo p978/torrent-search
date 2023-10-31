@@ -8,5 +8,7 @@ if sys.argv[1] == "-s" or sys.argv[1] == "--search":
         results = torrents.search(torrent_query) 
         for i,j in enumerate(results.get("items")): #type: ignore
             print(i,j.get("name"))
+            if sys.argv[3] == str(i):
+                print(j.get("link")) 
     else:
         print("Please add quotation marks in the search query")
